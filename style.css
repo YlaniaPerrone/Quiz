@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    border: solid;
+    border-width:2px;
+}
+
+
+div{
+    text-align: center;
+    font-size: 25px;
+}
+
+.vrai{
+    width:100px
+}
+
+.faux{
+    width:100px
+}
+
+img{
+    width: 300px;
+}
