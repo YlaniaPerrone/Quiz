@@ -1,6 +1,6 @@
 let btnPlay = document.getElementById('btnPlay')
 
-btnPlay.addEventListener("click", showQuestion);
+btnPlay.addEventListener("click", RandomQuestion);
 
 
 
@@ -12,19 +12,17 @@ let items = [
 
 function RandomQuestion(items)
 {
-
     return items[Math.floor(Math.random()*items.length)];
-
 }
 console.log(RandomQuestion(items));
 
 let saveQuestion = RandomQuestion(items)
 const p = document.querySelector('.question');
-p.innerHTML = saveQuestion
+p.innerHTML += saveQuestion
 
 
-function showQuestion(items){
-    let saveQuestion = RandomQuestion(items)
-    const p = document.querySelector('.question');
-    p.innerHTML = saveQuestion
-}
+// function showQuestion(items){
+//     let saveQuestion = RandomQuestion(items)
+//     const p = document.querySelector('.question');
+//     p.innerHTML = saveQuestion
+// }
