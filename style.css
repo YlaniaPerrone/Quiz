@@ -1,13 +1,13 @@
 h1{
-    text-align: center;
+    text-align: right
     border: solid;
-    border-width:2px;
+    border-width:50px;
 }
 
 
 div{
     text-align: center;
-    font-size: 25px;
+    font-size: 1px;
 }
 
 .vrai{
