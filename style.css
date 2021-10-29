@@ -1,26 +1,45 @@
-<<<<<<< HEAD
-=======
+@font-face {
+    font-family: "blabla";
+    src: url("/police/afterglow_2/Afterglow-Regular.ttf");
+  }
+
+
 h1{
-    text-align: right
+    text-align: center;
     border: solid;
-    border-width:50px;
+    border-width:2px;
+    background-color: #f9e8f8;
+    font-family: "blabla";
+    font-size: 35px;
 }
 
 
 div{
     text-align: center;
-    font-size: 1px;
+    font-size: 25px;
+    font-family: "blabla";
 }
 
 .vrai{
-    width:100px
+    width:100px;
+    font-size: 20px;
+    background-color: #90EE90;
+    border-radius: 5px;
+    font-family: "blabla";
 }
 
 .faux{
-    width:100px
+    width:100px;
+    font-size: 20px;
+    background-color: #FF5E4D;
+    border-radius: 5px;
+        font-family: "blabla";
 }
 
 img{
     width: 300px;
 }
->>>>>>> parent of 02cb65d (update css)
+
+body{
+    background-color: bisque;
+}
